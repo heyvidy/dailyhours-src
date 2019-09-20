@@ -1,0 +1,28 @@
+.cover-bg {
+    background: rgb(2, 25, 99);
+    background: linear-gradient(38deg, rgba(2, 25, 99, 1) 0%, rgba(0, 12, 32, 1) 100%);
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+body {
+    color: #fff;
+}
+
+.trans-form {
+    background:transparent;
+    color:#fff;
+    border:none;
+    border-bottom: 1px solid #fff;
+    padding-left: 10px;
+    min-width: 50px;
+    max-width:80px;
+}
+
+.trans-form:focus {
+    outline: none;
+}
+
+.subject-info-form {
+    margin-top:20px;
+}
